@@ -79,7 +79,7 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
           application/json:
             example: |
               {
-                "status": "fail",
+                "status": "error",
                 "message": "Buku gagal ditambahkan",
               }
 ```
