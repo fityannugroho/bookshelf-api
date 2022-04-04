@@ -1,0 +1,24 @@
+{
+  "name": "bookshelf-api",
+  "version": "0.1.0",
+  "description": "submission kelas back-end pemula dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fityannugroho/bookshelf-api.git"
+  },
+  "keywords": [
+    "dicoding",
+    "api",
+    "back-end"
+  ],
+  "author": "fityannugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fityannugroho/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/fityannugroho/bookshelf-api#readme"
+}
