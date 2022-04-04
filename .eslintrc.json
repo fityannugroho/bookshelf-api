@@ -13,5 +13,9 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "operator-linebreak": [
+            "error",
+            "before"
+        ]
     }
 }
