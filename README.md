@@ -187,7 +187,7 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
             example: |
               {
                 "status": "fail",
-                "message": "Gagal mengubah buku. Mohon isi nama buku",
+                "message": "Gagal memperbarui buku. Mohon isi nama buku",
               }
       400:
         description: properti `readPage` lebih besar dari `pageCount`
@@ -196,7 +196,7 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
             example: |
               {
                 "status": "fail",
-                "message": "Gagal mengubah buku. readPage tidak boleh lebih besar dari pageCount",
+                "message": "Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount",
               }
       404:
         description: `id` buku tidak ditemukan
