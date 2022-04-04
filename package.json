@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/fityannugroho/bookshelf-api/issues"
   },
-  "homepage": "https://github.com/fityannugroho/bookshelf-api#readme"
+  "homepage": "https://github.com/fityannugroho/bookshelf-api#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "dotenv": "^16.0.0",
+    "nanoid": "^3.3.2"
+  }
 }
