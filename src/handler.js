@@ -152,15 +152,13 @@ const editBookByIdHandler = (request, h) => {
     }).code(400);
   }
 
-  // Update book.
+  // Find book.
   const index = books.findIndex((book) => book.id === id);
 
   if (index !== -1) {
-    const updatedAt = new Date().toISOString();
-
+    // Update book.
     books[index] = {
       ...books[index],
-      id,
       name,
       year,
       author,
@@ -169,7 +167,7 @@ const editBookByIdHandler = (request, h) => {
       pageCount,
       readPage,
       reading,
-      updatedAt,
+      updatedAt: new Date().toISOString(),
     };
 
     return h.response({
@@ -178,6 +176,7 @@ const editBookByIdHandler = (request, h) => {
     });
   }
 
+  // If book not found.
   return h.response({
     status: 'fail',
     message: 'Gagal memperbarui buku. Id tidak ditemukan',
