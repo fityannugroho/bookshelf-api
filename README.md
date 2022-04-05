@@ -234,3 +234,24 @@ API ini akan menyimpan data buku dengan atribut sebagai berikut:
                 "message": "Buku gagal dihapus. Id tidak ditemukan",
               }
 ```
+
+
+## Menjalankan Server
+
+### 1. Konfigurasi server
+
+Dupilkasikan file `.env.example` dan ubah namanya menjadi `.env`. Lalu atur `HOST` dan `PORT` sesuai dengan yang diinginkan.
+
+### 2. Jalankan server
+
+Untuk menjalankan di lingkungan **pengembangan (*development*)**, gunakan perintah:
+
+```bash
+$ npm run start:dev
+```
+
+Untuk menjalankan di lingkungan **produksi (*production*)**, gunakan perintah:
+
+```bash
+$ npm run start:prod
+```
